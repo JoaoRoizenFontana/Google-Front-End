@@ -1,4 +1,4 @@
-# Google Front-End Project README
+# Google Front-End Project
 
 ## Project Overview:
 
@@ -8,10 +8,10 @@ This project aims to replicate the front-end layout and functionality of Google'
 
 ## Page Structure:
 
-- index.html: Contains the layout for regular Google Search.
-- image.html: Displays the layout for Google Image Search.
-- advanced.html: Implements the layout for Google Advanced Search.
-- Navigation Links: All pages include navigation links in the upper-right corner for easy access to other sections.
+- **index.html:** Contains the layout for regular Google Search.
+- **image.html:** Displays the layout for Google Image Search.
+- **advanced.html:** Implements the layout for Google Advanced Search.
+- **Navigation Links:** All pages include navigation links in the upper-right corner for easy access to other sections.
   On the Google Search page (index.html), links to Image Search and Advanced Search are provided.
   On the Image Search and Advanced Search pages, a link to return to the Google Search page is included.
   Search Functionality:
