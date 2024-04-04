@@ -5,15 +5,21 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <a class="a1" href="index.html">Google Search</a>
         <div>
-            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="google">
-            <span class="sub">Images</span>
-            <form action="https://www.google.com/search">
-                <input type="hidden" name="tbm" value="isch">
-                <input class="searchbox" type="text" name="q">
-                <input type="submit" value="Google Images">
-            </form>
+            <ul class="navbar">
+                <li><a class="navbar-item" href="index.html">Google</a></li>
+            </ul>
+        </div>
+        <div class="center-div">
+            <img src="Google_Images.png" alt="google" height="92">
+        </div>
+        <form action="https://www.google.com/search">
+            <input class="searchbox" type="search" name="q">
+            <input type="hidden" name="tbm" value="isch">
+            <div class="center-div">
+                <input class="btn-google" type="submit" value="Google Image">
+            </div>
+        </form>
         </div>
     </body>
 </html>
