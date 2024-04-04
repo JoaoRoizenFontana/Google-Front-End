@@ -1,21 +1,43 @@
-# Google-Front-End
+# Google Front-End Project README
 
-Specification
-Your website must meet the following requirements:
+## Project Overview:
 
-Your website should have at least three pages: one for regular Google Search (which must be called index.html), one for Google Image Search, and one for Google Advanced Search.
-On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
-On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
-Like Google’s own, your search bar should be centered with rounded corners. The search button should also be centered, and should be beneath the search bar.
-On the Google Image Search page, the user should be able to type in a query, click a search button, and be taken to the Google Image search results for that page.
-On the Google Advanced Search page, the user should be able to provide input for the following four fields (taken from Google’s own advanced search options)
-Find pages with… “all these words:”
-Find pages with… “this exact word or phrase:”
-Find pages with… “any of these words:”
-Find pages with… “none of these words:”
-Like Google’s own Advanced Search page, the four options should be stacked vertically, and all of the text fields should be left aligned.
-Consistent with Google’s own CSS, the “Advanced Search” button should be blue with white text.
-When the “Advanced Search” button is clicked, the user should be taken to the search results page for their given query.
-Add an “I’m Feeling Lucky” button to the main Google Search page. Consistent with Google’s own behavior, clicking this link should take users directly to the first Google search result for the query, bypassing the normal results page.
-You may encounter a redirect notice when using the “I’m Feeling Lucky” button. Not to worry! This is an expected consequence of a security feature implemented by Google.
-The CSS you write should resemble Google’s own aesthetics.
+This project aims to replicate the front-end layout and functionality of Google's search engine, including its regular search, image search, and advanced search features. The website consists of three pages: index.html for regular Google Search, image.html for Google Image Search, and advanced.html for Google Advanced Search.
+
+## Implementation Details:
+
+## Page Structure:
+
+- index.html: Contains the layout for regular Google Search.
+- image.html: Displays the layout for Google Image Search.
+- advanced.html: Implements the layout for Google Advanced Search.
+- Navigation Links: All pages include navigation links in the upper-right corner for easy access to other sections.
+  On the Google Search page (index.html), links to Image Search and Advanced Search are provided.
+  On the Image Search and Advanced Search pages, a link to return to the Google Search page is included.
+  Search Functionality:
+
+### Google Search Page (index.html):
+
+- Users can enter a query into the search bar and click "Google Search" to be directed to the search results page.
+- The search bar and button are centered with rounded corners, following Google's aesthetics.
+
+### Google Image Search Page (image.html):
+
+- Users can input a query and click the search button to be redirected to Google Image search results.
+
+### Google Advanced Search Page (advanced.html):
+
+- Users can input specific search parameters in four fields, similar to Google's advanced search options.
+- The fields are stacked vertically, and all text inputs are left-aligned, consistent with Google's design.
+
+## Styling:
+
+- CSS is designed to resemble Google's aesthetics, including font styles, button colors, and layout arrangements.
+- The "Advanced Search" button is styled with blue background and white text, matching Google's design guidelines.
+- I'm Feeling Lucky Button: Added an "I'm Feeling Lucky" button on the main Google Search page. Clicking this button directly redirects users to the first search result for their query, bypassing the regular results page.
+
+Note: Users may encounter a redirect notice due to Google's security features, which is an expected behavior.
+
+## Conclusion:
+
+This project successfully replicates key features and aesthetics of Google's front-end design, providing users with a familiar interface for conducting searches. The implementation adheres closely to the provided specifications, ensuring a seamless user experience across all pages.
